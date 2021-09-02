@@ -1,0 +1,147 @@
+/* general rools & variables */
+
+:root{
+    --prime: #9dc539;
+}
+
+.round{
+    border-radius: 50%;
+}
+
+.center-me{
+    margin-top: 10px;
+    text-align: center;
+}
+
+prime{
+    color: var(--prime);
+}
+
+.color{
+    background-color: var(--prime);
+}
+
+.space{
+    height: 10px;
+}
+.space2{
+    height: 20px;
+}
+
+.dashed{
+    border:none;
+    border-top:1px dashed lightgray;
+    color:#fff;
+    background-color:#fff;
+    height: 1px;
+    width:90%;
+}
+
+.margin{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+/* general rools & variables end*/
+
+/* main start */
+
+.container-3{
+    background-color: var(--prime);
+}
+
+
+
+.round-img{
+    /* margin-left: 40px; */
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    border: 20px solid white;
+    background-color: var(--prime);
+}
+
+.second-border{
+    margin-left: 40px;
+    width: 202px;
+    height: 202px;
+    
+    border-radius: 50%;
+    border: 1px solid lightgray;
+}
+
+.icon-white{
+    color: white;
+    margin-top: 40px;
+}
+
+.second-border:hover .round-img{
+    background-color: white;
+    border: 20px solid var(--prime);
+}
+.second-border:hover .icon-white, .round-img{
+    color: var(--prime);
+
+}
+
+.card{
+    border: none;
+}
+
+.slide{
+    padding-left: 20%;
+}
+
+.carousel-img-text{
+    width: 600px;
+    margin-left: 40%;
+}
+
+.icon{
+    color: lightgray;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* footer start */
+
+footer .container-fluid{
+    background-color:black;
+}
+
+footer, footer a{
+    background-color: black;
+    color: white;
+}
+
+footer p{
+    margin-top: 10px;
+    margin-left: 40%;
+}
+
+
+/* footer end */
+
+/* media querries */
+
+@media only screen and (max-width: 1200px){
+    .margin{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    footer p{
+        margin-left: 0;
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 1600px) {
+    .carousel-img-text{
+        font-size: 0;
+    }
+    .slide{
+        padding-left: 10%;
+    }
+  }
+
+  /* media querries end*/
